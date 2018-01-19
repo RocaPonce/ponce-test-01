@@ -2,7 +2,7 @@ variable "name" {
   default = "alex"
 }
  
- resource " random_id" "random" {
+ resource "random_id" "random" {
    byte_length = 24
  }
    
